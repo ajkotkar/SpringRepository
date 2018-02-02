@@ -2,13 +2,13 @@ package com.example.model;
 
 public class Address {
 
-	private String city;
+	private String cityName;
 	private String country;
 	public String getCity() {
-		return city;
+		return cityName;
 	}
 	public void setCity(String city) {
-		this.city = city;
+		this.cityName = city;
 	}
 	public String getCountry() {
 		return country;
@@ -17,7 +17,7 @@ public class Address {
 		this.country = country;
 	}
 	public Address(String city, String country) {
-		this.city = city;
+		this.cityName = city;
 		this.country = country;
 	}
 	
